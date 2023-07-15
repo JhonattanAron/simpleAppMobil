@@ -48,8 +48,8 @@ public class ArticlesAdapter extends RecyclerView.Adapter<ArticlesAdapter.ViewHo
         Glide.with(context)
                 .load(articles.get(position).getImgUrl())
                 .apply(new RequestOptions()
-                        .placeholder(R.drawable.person) // Imagen de placeholder mientras se carga
-                        .error(R.drawable.person)) // Imagen de error en caso de fallo de carga
+                        .placeholder(R.drawable.side_nav_bar) // Imagen de placeholder mientras se carga
+                        .error(R.drawable.side_nav_bar)) // Imagen de error en caso de fallo de carga
                 .into(holder.imgPortada);
     }
 
