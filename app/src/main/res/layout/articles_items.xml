@@ -26,7 +26,7 @@
                 android:layout_height="194dp"
                 android:contentDescription="Descripcion"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/buscar_icon_background" />
+                app:srcCompat="@drawable/side_nav_bar" />
 
             <LinearLayout
                 android:layout_width="match_parent"
