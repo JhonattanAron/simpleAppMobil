@@ -46,8 +46,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Ellegolasxd"
-                    android:id="@+id/txtArtP1"
+                    android:text="autor"
+                    android:id="@+id/txtArtAu"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="?android:attr/textColorSecondary" />
 
@@ -56,7 +56,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:text="supporting_text"
-                    android:id="@+id/txtArtAu"
+                    android:id="@+id/txtArtP1"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                     android:textColor="?android:attr/textColorSecondary" />
 

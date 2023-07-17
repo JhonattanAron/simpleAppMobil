@@ -21,10 +21,6 @@ class GalleryFragment : Fragment() {
     ): View {
         _binding = FragmentGalleryBinding.inflate(inflater, container, false)
         val root: View = binding.root
-
-        val textView: TextView = binding.textGallery
-        // Asigna los datos al TextView según sea necesario
-
         return root
     }
 

@@ -7,9 +7,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.FrameLayout
 import androidx.navigation.fragment.findNavController
 import com.example.poyectofinal.componentes.ui.login.UserDatabaseHelper
 import com.example.poyectofinal.componentes.ui.login.UserModel
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 import kotlinx.coroutines.CoroutineScope
@@ -37,6 +39,8 @@ class Login : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+
+
     }
 
     override fun onCreateView(
@@ -52,6 +56,7 @@ class Login : Fragment() {
 
         val loginBtn = rootView.findViewById<Button>(R.id.loginBtn)
         val singUpButton = rootView.findViewById<Button>(R.id.buttonSingUp)
+
         singUpButton.setOnClickListener {
             findNavController().navigate(R.id.action_loginFragment_to_singUp)
         }
@@ -61,9 +66,13 @@ class Login : Fragment() {
             Components.showInfoToast(requireContext(), "Iniciando Sesion...", R.layout.info_toast)
             loginUsuarios(email, pass)
         }
+
+
+
         return rootView
 
     }
+
     private fun loginUsuarios(email: String, password: String) {
         val url = "http://192.168.100.65:8080/api/users/login"
         val client = OkHttpClient()
