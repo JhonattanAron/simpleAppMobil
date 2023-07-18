@@ -1,12 +1,15 @@
 package com.example.poyectofinal.adpater;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.ValueCallback;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -36,8 +39,6 @@ public class ArticlesAdapter extends RecyclerView.Adapter<ArticlesAdapter.ViewHo
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.articles_items, parent, false);
-
-        // Aquí se configura la altura y el ancho de cada elemento para que se muestren uno sobre otro
         RecyclerView.LayoutParams layoutParams = new RecyclerView.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT
@@ -58,7 +59,14 @@ public class ArticlesAdapter extends RecyclerView.Adapter<ArticlesAdapter.ViewHo
                         .placeholder(R.drawable.side_nav_bar) // Imagen de placeholder mientras se carga
                         .error(R.drawable.side_nav_bar)) // Imagen de error en caso de fallo de carga
                 .into(holder.imgPortada);
-
+        holder.btnArt.setOnClickListener(v -> verMas(articles.get(position).getTittle()));
+    }
+    public void verMas(String tittle) {
+        String url = "http://192.168.100.65:8080/articles/" + tittle;
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(url));
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(intent);
     }
 
 
@@ -72,6 +80,7 @@ public class ArticlesAdapter extends RecyclerView.Adapter<ArticlesAdapter.ViewHo
         private TextView txtTitulo;
         private TextView txtArtp1;
         private TextView txtAu;
+        private Button btnArt;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -79,6 +88,7 @@ public class ArticlesAdapter extends RecyclerView.Adapter<ArticlesAdapter.ViewHo
             txtTitulo = itemView.findViewById(R.id.titleArt);
             txtArtp1 = itemView.findViewById(R.id.txtArtP1);
             txtAu = itemView.findViewById(R.id.txtArtAu);
+            btnArt = itemView.findViewById(R.id.verMasArticles);
         }
     }
 }
