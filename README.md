@@ -13,7 +13,7 @@
 	margin-top: -0.72em;
 	margin-left: 0.07em;
 ">
-				<img class="icon" src="https://www.notion.so/icons/phone_gray.svg" />
+				<img class="icon" src="https://www.notion.so/icons/phone_gray.svg" style="position: absolute; width: 200px; transform: translateY(-3rem);" />
 			</div>
 			<h1 class="page-title">Diseño del Sistema</h1>
 			<p class="page-description"></p>
@@ -223,19 +223,6 @@ margin-bottom: 0;" id="4449147b-d2e2-487d-ba82-c9cf27c7849d" class="">Visión Ge
 					</div>
 				</li>
 			</ul>
-			<h1 id="e3818ca5-3634-48fb-8c48-84fba6447822" class="">Diagrama De La Arquitectura.</h1>
-			<hr id="91374d6c-4bdd-449a-ba38-df9405d014e5" />
-			<figure id="b2c5c2f1-3ac4-48d3-8020-04df87bc35b5" class="link-to-page"><a
-					href="https://www.notion.so/Diagrama-AdapLeap-b2c5c2f13ac448d3802004df87bc35b5?pvs=21">Diagrama
-					AdapLeap</a></figure>
-			<figure id="682ef5ef-69d6-41b9-acf0-7437f24a2515" class="link-to-page"><a
-					href="https://www.notion.so/682ef5ef69d641b9acf07437f24a2515?pvs=21"><img class="icon" style="position: absolute;
-					transform: translateX(10px);
-					width: 200px;
-					transform: translateY(-100px);"
-						src="https://www.notion.so/icons/cut_lightgray.svg" />Lista De AdaptLeap</a></figure>
-			<p id="efde8656-0452-48ec-99eb-c93dad5170c5" class="">
-			</p>
 		</div>
 	</article>
 </body>
