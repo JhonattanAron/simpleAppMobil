@@ -7,7 +7,7 @@
 	object-fit: cover;
 	width: 100%;
 	max-height: 30vh;
-	height: 20vh;" />
+	height: 10vh;" />
 			<div style="font-size: 3rem;
 	margin-bottom: 1rem;
 	margin-top: -0.72em;
