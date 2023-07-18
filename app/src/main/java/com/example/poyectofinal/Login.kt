@@ -48,6 +48,7 @@ class Login : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val rootView = inflater.inflate(R.layout.fragment_login, container, false)
+
         val textEmailLayout = rootView.findViewById<TextInputLayout>(R.id.emailLogin)
         val textPasswordLayout = rootView.findViewById<TextInputLayout>(R.id.passwordLogin)
 

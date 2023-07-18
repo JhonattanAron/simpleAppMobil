@@ -98,7 +98,6 @@ class SingUp : Fragment() {
             }
 
             override fun onResponse(call: Call, response: Response) {
-                // Mostrar Toast usando requireContext()
                 requireActivity().runOnUiThread {
                     if (response.isSuccessful) {
                         Components.showInfoToast(requireContext(), "Usuario Registrado", R.layout.info_toast)
