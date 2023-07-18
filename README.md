@@ -6,7 +6,8 @@
 		<header><img src="https://www.notion.so/images/page-cover/gradients_8.png" style="object-position:center 70%;display: block;
 	object-fit: cover;
 	width: 100%;
-	max-height: 30vh;" />
+	max-height: 30vh;
+	height: 20vh;" />
 			<div style="font-size: 3rem;
 	margin-bottom: 1rem;
 	margin-top: -0.72em;
@@ -228,7 +229,10 @@ margin-bottom: 0;" id="4449147b-d2e2-487d-ba82-c9cf27c7849d" class="">Visión Ge
 					href="https://www.notion.so/Diagrama-AdapLeap-b2c5c2f13ac448d3802004df87bc35b5?pvs=21">Diagrama
 					AdapLeap</a></figure>
 			<figure id="682ef5ef-69d6-41b9-acf0-7437f24a2515" class="link-to-page"><a
-					href="https://www.notion.so/682ef5ef69d641b9acf07437f24a2515?pvs=21"><img class="icon"
+					href="https://www.notion.so/682ef5ef69d641b9acf07437f24a2515?pvs=21"><img class="icon" style="position: absolute;
+					transform: translateX(10px);
+					width: 200px;
+					transform: translateY(-100px);"
 						src="https://www.notion.so/icons/cut_lightgray.svg" />Lista De AdaptLeap</a></figure>
 			<p id="efde8656-0452-48ec-99eb-c93dad5170c5" class="">
 			</p>
