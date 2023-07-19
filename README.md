@@ -180,8 +180,10 @@ margin-bottom: 0;" id="4449147b-d2e2-487d-ba82-c9cf27c7849d" class="">System Ove
 								<div class="indented"></div>
 							</li>
 						</ul>
-						<ul id="2fa629ce-0dde-42b5-893d-1db5f1053b31" class="to-do-list">
-								<div class="checkbox checkbox-on"></div> <span class="to-do-children-checked">Session Login ENDPOINT Service.</span>
+						<ul id="b6db98df-9087-4c3b-af3b-6ef01b49a55d" class="to-do-list">
+							<li>
+								<div class="checkbox checkbox-off"></div> <span
+									class="to-do-children-unchecked">Session Login ENDPOINT Service.</span>
 								<div class="indented"></div>
 							</li>
 						</ul>
