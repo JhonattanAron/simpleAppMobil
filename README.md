@@ -14,8 +14,6 @@
 ">
 				<img class="icon" src="https://www.notion.so/icons/phone_gray.svg" style="position: absolute; width: 200px; transform: translateY(-3rem);" />
 			</div>
-			<h1 class="page-title">System Design</h1>
-			<p class="page-description"></p>
 		</header>
 		<div class="page-body">
 			<p id="e5e16371-d5dd-495a-81cb-be55050c5c20" class="">
