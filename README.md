@@ -65,8 +65,7 @@ margin-bottom: 0;" id="4449147b-d2e2-487d-ba82-c9cf27c7849d" class="">Visión Ge
 					<ul id="1fb212d4-c5be-4afc-b54d-e7560488a372" class="bulleted-list">
 						<li style="list-style-type:circle">Capa de Backend: Se encuentra la lógica para administrar la
 							base de datos así como registrar los artículos y permitir el registro e inicio de
-							s<strong><strong>esión </strong></strong>del usuario. (<a href="https://github.com/JhonattanAron/adapLeap">Repositorio Backend</a>) </li>
-						
+							s<strong><strong>esión </strong></strong>del usuario. (<a href="https://github.com/JhonattanAron/adapLeap">Repositorio Backend</a>) </li>	
 					</ul>
 					<ul id="982d6be2-4422-4d03-addf-ba14a211de15" class="bulleted-list">
 						<li style="list-style-type:circle">Base de datos: Se encuentra la información del sistema.</li>
