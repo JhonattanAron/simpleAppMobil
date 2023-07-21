@@ -1,5 +1,3 @@
-</head>
-
 <body>
 	<article id="4a674d65-78e1-41d7-9177-43d19b098d20" class="page sans">
 		<header><img src="https://www.notion.so/images/page-cover/gradients_8.png" style="object-position:center 70%;display: block;
